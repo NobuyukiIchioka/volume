@@ -12,9 +12,13 @@
 </head>
 <body>
     <video type="video/webm" src="./video/summer_sound.mp4" loop></video>
-    <button id="btn_play">再生</button>
-    <button id="btn_pause">一時停止</button>
-    <button id="btn_mute">消音<img src="./img/volume-high.svg" alt="sound" id="icon"></button>
+    <button class="btn" id="btn_play">再生</button>
+    <button class="btn" id="btn_pause">一時停止</button>
+    <button class="btn"><img src="./img/volume-high.svg" alt="sound" id="icon"></button>
     <input type="range" id="volume" value="0.5" min="0.0" max="1.0" step="0.1">
+
+    <div style="border: 3px solid #777777;">
+        <input type="range">
+    </div>
 </body>
 </html>
